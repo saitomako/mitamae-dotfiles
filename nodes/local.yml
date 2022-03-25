@@ -1,0 +1,24 @@
+recipes:
+  - cookbooks/homebrew/default.rb
+  - cookbooks/git/default.rb
+  - cookbooks/go/default.rb
+  - cookbooks/bash/default.rb
+  - cookbooks/direnv/default.rb
+  - cookbooks/cmake/default.rb
+  - cookbooks/zsh/default.rb
+  - cookbooks/gpg-suite/default.rb
+  - cookbooks/awscli/default.rb
+  - cookbooks/session-manager-plugin/default.rb
+  - cookbooks/peco/default.rb
+  - cookbooks/ghq/default.rb
+  - cookbooks/cfn-lint/default.rb
+  - cookbooks/docker-desktop/default.rb
+  - cookbooks/aws-sso-external/default.rb
+  - cookbooks/plenv/default.rb
+  - cookbooks/pyenv/default.rb
+  - cookbooks/rbenv/default.rb
+  - cookbooks/nodenv/default.rb
+  - cookbooks/jq/default.rb
+  - cookbooks/aws-sam-cli/default.rb
+  - cookbooks/finicky/default.rb
+  - cookbooks/gh/default.rb
