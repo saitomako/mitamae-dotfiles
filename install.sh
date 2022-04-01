@@ -8,4 +8,9 @@ fi
 
 bin/setup
 
+case "$(uname)" in
+  "Darwin") bin/mitamae local $@ lib/recipe.rb ;;
+  *) bin/mitamae local $@ lib/recipe.rb ;;
+esac
+
 
